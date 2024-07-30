@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { ComponentA } from './components/componentA';
+import { ComponentA } from './parts/componentA';
 import { RecoilRoot } from 'recoil';
 
 
