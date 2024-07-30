@@ -1,4 +1,6 @@
 # sample_recoil
-recoilを使ったサンプルアプリ
+Recoilを使ったサンプルアプリ
+
+Recoilを使えばReactでバケツリレーしなくて済む
 
 ![alt text](/docs/image.png)
