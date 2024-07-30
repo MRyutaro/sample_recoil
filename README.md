@@ -8,9 +8,9 @@ Recoilを使えばReactでバケツリレーしなくて済む
 ![alt text](/docs/image.png)
 
 ## 使い方
-'''
+```
 npm install recoil
-'''
+```
 
 はじめに、親コンポーネントをRecoilRootで囲む。
 
