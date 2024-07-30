@@ -4,13 +4,13 @@ import Grid from "@mui/material/Grid";
 import { stateA } from "../atoms/stateA";
 
 
-export const ComponentA = () => {
+export const ComponentB = () => {
     const [state, setState] = useRecoilState(stateA);
     return (
-        <div style={{ backgroundColor: "pink" }}>
+        <div style={{ backgroundColor: "lightblue" }}>
             <Grid container alignItems="center" justifyContent="center" direction="column" sx={{ mt: 2 }}>
-                <h1>ComponentA</h1>
-                <p>ComponentAからstateAを取得・更新できる</p>
+                <h1>ComponentB</h1>
+                <p>ComponentBからもstateAを取得・更新できる</p>
                 <Grid item>
                     <button onClick={() => setState(state + "a")}>追加</button>
                     <button onClick={() => setState("リセットデフォルト値")}>リセット</button>
